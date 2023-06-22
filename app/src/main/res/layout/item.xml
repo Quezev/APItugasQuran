@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/namasurah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Al-Fatihah"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/terjemahs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terjemahan"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@+id/namasurah"
+        />
+    <TextView
+        android:id="@+id/arab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:text="الفاتحة"
+        />
+
+
+</RelativeLayout>
